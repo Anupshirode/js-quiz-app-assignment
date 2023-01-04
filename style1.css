@@ -1,0 +1,91 @@
+body {
+  background-color: #54c3ef;
+  padding-top: 25px;
+  padding-bottom: 37.06px;
+  padding-left: 25px;
+}
+
+#heading_text {
+  font-family: "Caveat Brush", cursive;
+  font-size: 90px;
+  text-shadow: 2px 5px #2b3252;
+  text-align: center;
+  margin: 0px;
+  color: #fad744;
+}
+
+#quiz {
+  background-color: #2b3252;
+  width: 55%;
+  margin-top: 36px;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+form {
+  color: #fad744;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.label {
+  margin-top: 10px;
+}
+
+.radio-btn {
+  margin-right: 10px;
+}
+
+.hr {
+  border-bottom: 1px solid #fad744;
+  margin-top: 30px;
+}
+
+#marks {
+  width: 10%;
+  height: 170px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 36px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  position: sticky;
+  top: 5px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  background-color: #fad744;
+  color: #000;
+
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+#btn {
+  text-align: center;
+}
+
+#totalMarks {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fa-check {
+  color: #08a66c;
+  padding-left: 10px;
+  /* opacity: 0; */
+}
+.fa-times {
+  color: red;
+  padding-left: 10px;
+}
